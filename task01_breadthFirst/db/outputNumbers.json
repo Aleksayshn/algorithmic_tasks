@@ -1,0 +1,23 @@
+[
+  {
+    "test": 1,
+    "date": "14.04.2023",
+    "firstNumber": 10,
+    "secondNumber": 101,
+    "isItPosible": true
+  },
+  {
+    "test": 2,
+    "date": "14.04.2023",
+    "firstNumber": 20,
+    "secondNumber": 20111,
+    "isItPosible": true
+  },
+  {
+    "test": 3,
+    "date": "14.04.2023",
+    "firstNumber": 3,
+    "secondNumber": 9,
+    "isItPosible": false
+  }
+]

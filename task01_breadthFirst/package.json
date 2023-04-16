@@ -1,0 +1,25 @@
+{
+  "name": "algorithmic_tasks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleksayshn/algorithmic_tasks"
+  },
+  "author": "Aleksayshn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aleksayshn/algorithmic_tasks/issues"
+  },
+  "homepage": "https://github.com/Aleksayshn/algorithmic_tasks#readme",
+
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^10.0.0"
+  }
+}
