@@ -16,7 +16,7 @@ const readInput = async () => {
   try {
 const data = await fs.readFile(inputPath, 'utf-8');
 const scene = JSON.parse(data);
-const result = getAvailableSize(scene)
+const result = isValidPosition(scene)
     await log({ result });
   } catch (err) {
     console.error(`Failed to read the file ${inputPath}`);
@@ -26,7 +26,7 @@ const result = getAvailableSize(scene)
 
 let places = 0;
 
-const getAvailableSize = (scene) => {
+const isValidPosition = (scene) => {
  for (let i = 0; i < scene.length; i++) {
         const level = scene[i];
         for (let j = 0; j < level.length; j++) {
