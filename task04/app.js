@@ -28,24 +28,22 @@ const getAvailablePositions = (scene) => {
   const n = scene.length;
   const m = scene[0].length;
 
-  // Check all cells of the stage
   for (let i = 0; i < n; i++) {
     for (let j = 0; j < m; j++) {
-      // Check only cells without actors
+
       if (scene[i][j] === 0) {
-        // Check the left direction
+
         if (j > 0 && scene[i][j - 1] === 1) {
           count++;
         }
-        // Check the up direction
+
         if (i > 0 && scene[i - 1][j] === 1) {
           count++;
         }
-        // Check the right direction
+
         if (j < m - 1 && scene[i][j + 1] === 1) {
           count++;
         }
-        // Check the down direction
         if (i < n - 1 && scene[i + 1][j] === 1) {
           count++;
         }
